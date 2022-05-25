@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            
+            <label for="dnasc">Data de Nascimento:</label>
+            <input type="date" id="dnasc" name="dnasc"><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email"><br>
+            
+            <label for="phone">Telefone:</label>
+            <input type="text" id="phone" name="phone"><br>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>Dados acadêmicos</legend>
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso">
+                <option value="ADS">ADS</option>
+            </select><br>
+
+            <label for="semestre">Semestre:</label>
+            <input type="radio" id="1" name="Semestre" value="1">
+            <label for="1">1º</label>
+            <input type="radio" id="2" name="Semestre" value="2">
+            <label for="2">2º</label>
+            <input type="radio" id="3" name="Semestre" value="3">
+            <label for="3">3º</label>
+            <input type="radio" id="4" name="Semestre" value="4">
+            <label for="4">4º</label>
+            <input type="radio" id="5" name="Semestre" value="5">
+            <label for="5">5º</label>
+        </fieldset><br>
+
+        <fieldset>
+            <label for="trab">Trabalha?</label>
+            <input type="checkbox" id="trab" name="trab" value="trab"><br>
+
+            <label for="local">Local de trabalho:</label>
+            <input type="text" id="local" name="local"><br>
+
+            <label for="descreva">Descreva sua experiência:</label><br>
+            <textarea name="descreva" rows="5" cols="70"></textarea>
+        </fieldset><br>
+
+        <input type="button" value="Gravar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
